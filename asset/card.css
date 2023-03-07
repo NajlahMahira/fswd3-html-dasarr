@@ -1,0 +1,67 @@
+:root{
+  --primary-color:red;
+  --secondary-color:green;
+  --warning-color:grey;
+
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    background-color: var(--secondary-color);
+    display: inline;
+    border: solid 2px var(--primary-color);
+    text-align: center;
+    
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;  
+  }
+  .section2{
+    float: left;
+    width: 100%;
+    padding: 50px 15px;
+    padding: 15px;
+    background-color: var(--warning-color);
+    text-align: center;
+    
+
+  }
+
+.section2 .card{
+ 
+width:15%;
+ float: left;
+ padding:5px 10px;
+ margin-right: 3%;
+ margin-top: 5%;
+ margin-left: 3%;
+}
+
+.section2 .card2{
+ 
+  width:15%;
+   float: left;
+   padding:5px 10px;
+   margin-right: 3%;
+   margin-top: 5%;
+   margin-left: 3%;
+  }
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    background-color: var(--warning-color);
+    display: inline;
+    border: solid 2px var(--primary-color);
+    text-align: center;
+}
+
+
