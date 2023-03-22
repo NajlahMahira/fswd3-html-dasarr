@@ -14,10 +14,21 @@ function add(){
     "<span onclick='remove(this)'> X </span>" +
     "</li>"
 
+    
+    
+    fetch('https://crudcrud.com/api/778d69b7fe34466e9eefa05e47f227f8/todos', {
+        headers: { "Content-Type": "application/json; charset=utf-8" },
+        method: 'POST',
+        body: JSON.stringify({
+            "text": text.value
+        })
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    
     todo.insertAdjacentHTML('afterbegin', newtodo)
 
     text.value = " "
-    
 
    
 }
