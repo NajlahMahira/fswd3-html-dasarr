@@ -17,6 +17,11 @@ body{
 
 .nav-kiri{
     width: 76%;
+   
+}
+.blogku a{
+    font-weight: bold;
+    
 }
 
 /* .nav-item{
@@ -26,6 +31,7 @@ body{
 
 .blogku{
     width: 70px;
+  
     padding: 10px;
     text-align: center;
 }
