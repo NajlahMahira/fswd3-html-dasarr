@@ -1,0 +1,173 @@
+body{
+    background: white;
+    color: black;
+    width: auto;
+    margin: 0;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    
+}
+
+.nav-kiri{
+    width: 76%;
+}
+
+/* .nav-item{
+    border: 3px solid black;
+   
+} */
+
+.blogku{
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+}
+.kanan{
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+ .nav-item a{
+    text-decoration: none;
+ }
+header{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #F5C6EC;
+    padding-bottom: 10px;
+}
+.title, .deskripsi{
+    width: auto;
+}
+.flex-utama{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF2CC;
+    color: blue;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+}
+.flex-sub1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    color: blue;
+}
+.sub1-title{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.container-card{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-item{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1em;
+    width: 32%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px
+}
+.card-image{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card-content{
+    padding: 0px;
+    margin: 10px;
+    width: 100%;
+}
+.card-title, .card-text{
+    color: black;
+
+}
+.flex-sub2{
+    width: auto;
+    margin: 10px;
+}
+.terkait{
+    margin-bottom: 20px;
+}
+li{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-kiri{
+        width: auto;
+    }
+    .nav-item{
+        border: 3px solid black;
+        text-align: center;
+        width: auto;
+        padding: 10px;
+    }
+    .flex-utama{
+        display: flex;
+        flex-direction: column;
+        color: black;
+        width: auto;
+        height: auto;
+    }
+    .flex-sub1{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        color: black;
+    }
+    .flex-sub2{
+        width: auto;
+    }
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-item{
+        width: auto;
+    }
+    .card-image{
+        width: 100%;
+    }
+    .card-text{
+        display: none;
+    }
+}
